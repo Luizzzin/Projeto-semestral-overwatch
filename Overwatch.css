@@ -1,0 +1,16 @@
+body{
+    height: 4732px;
+    width:auto;
+    background-color: white;
+}
+
+#navegação{
+    position: absolute;
+width: 100vw;
+height: 105px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
