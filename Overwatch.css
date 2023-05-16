@@ -4,13 +4,17 @@ body{
     background-color: white;
 }
 
-#navegação{
-    position: absolute;
-width: 100vw;
-height: 105px;
-left: 0px;
-top: 0px;
+.elemento{
+    width: 100vw;
+    height: 105px;
+    background: white;
+}
 
-background: #FFFFFF;
+#imagemback{
+    position: absolute;
+    width: 100px;
+    height: 760px;
+    left: 0px;
+    top: 105px;
 }
 
