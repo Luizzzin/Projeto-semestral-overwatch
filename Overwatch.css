@@ -72,11 +72,19 @@
 }
 
 .botão3 {
+    background-image: url(mapas.png);
+    background-size: 164px 29px;
     position: absolute;
     width: 164px;
     height: 29px;
     left: 990px;
     top: 42px;
+}
+
+.botão3:hover{
+background-image: url(conheça\ os\ mapas\ laranja.png);
+background-size: 164px 49px
+
 }
 
 .botão4 {
