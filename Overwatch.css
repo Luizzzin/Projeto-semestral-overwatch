@@ -32,9 +32,9 @@
     left: 131.48px;
     top: 27.24px;
 }
-
 .botão1 {
     background-image: url(historia\ jogo.png);
+    background-size: 204px 29px;
     position: absolute;
     width: 204px;
     height: 29px;
@@ -43,6 +43,7 @@
 }
 .botão1:hover {
     background-image: url(imagem\ efeito.png);
+    background-size: 204px 48px;
     position: absolute;
     width: 204px;
     height: 29px;
