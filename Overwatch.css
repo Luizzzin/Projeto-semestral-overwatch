@@ -101,10 +101,12 @@
 
 .videogames {
     position: absolute;
-    width: 1440px;
-    height: 84px;
+    width: 100vw;
+    height: 89px;
     left: 0px;
     top: 781px;
+    display: flex;
+    justify-content: center;
 
     background: rgba(217, 217, 217, 0.75);
 }
