@@ -52,7 +52,18 @@
 }
 
 .botão2 {
+    background-image: url(herois.png);
+    background-size: 164px 29px;
     position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 42px;
+
+}
+.botão2:hover {
+    background-image: url(herois\ laranja.png);
+    background-size: 165px 29px;
     width: 164px;
     height: 29px;
     left: 770px;
