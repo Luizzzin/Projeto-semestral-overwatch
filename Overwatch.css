@@ -34,7 +34,8 @@
 }
 
 .botão1 {
-    position: absolute;
+    background-image: url(historia\ jogo.png);
+    position: center;
     width: 204px;
     height: 29px;
     left: 500px;
@@ -42,6 +43,7 @@
 }
 .botão1:hover {
     background-image: url(imagem\ efeito.png);
+    position: center;
     width: 204px;
     height: 29px;
     left: 500px;
