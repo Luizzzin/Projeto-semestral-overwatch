@@ -1,20 +1,75 @@
-body{
-    height: 4732px;
-    width:auto;
-    background-color: white;
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
-.elemento{
+.elemento {
     width: 100vw;
     height: 105px;
-    background: white;
+    background-color: rgb(255, 255, 255);
 }
 
-#imagemback{
+.back {
+    width: 100vw;
+    height: 765px;
+
+}
+
+.logo {
     position: absolute;
-    width: 100px;
-    height: 760px;
-    left: 0px;
-    top: 105px;
+    width: 66.58px;
+    height: 66.58px;
+    left: 45px;
+    top: 19px;
+
+}
+
+.nome {
+    position: absolute;
+    width: 310.52px;
+    height: 48.69px;
+    left: 131.48px;
+    top: 27.24px;
+}
+
+.botão1 {
+    position: absolute;
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 42px;
+}
+.botão1:hover {
+    background-image: url(imagem\ efeito.png);
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 42px;
+}
+
+.botão2 {
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 42px;
+
+}
+
+.botão3 {
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 990px;
+    top: 42px;
+}
+
+.botão4 {
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 1210px;
+    top: 42px;
 }
 
