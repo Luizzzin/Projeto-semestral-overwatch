@@ -32,6 +32,7 @@
     left: 131.48px;
     top: 27.24px;
 }
+
 .botão1 {
     background-image: url(historia\ jogo.png);
     background-size: 204px 29px;
@@ -41,6 +42,7 @@
     left: 500px;
     top: 42px;
 }
+
 .botão1:hover {
     background-image: url(imagem\ efeito.png);
     background-size: 204px 48px;
@@ -61,9 +63,10 @@
     top: 42px;
 
 }
+
 .botão2:hover {
     background-image: url(herois\ laranja.png);
-    background-size: 174px 50px;
+    background-size: 171px 49px;
     position: absolute;
     width: 164px;
     height: 29px;
@@ -81,13 +84,14 @@
     top: 42px;
 }
 
-.botão3:hover{
-background-image: url(conheça\ os\ mapas\ laranja.png);
-background-size: 164px 49px
-
+.botão3:hover {
+    background-image: url(conheça\ os\ mapas\ laranja.png);
+    background-size: 164px 49px
 }
 
 .botão4 {
+    background-image: url(adquira\ o\ jogo.png);
+    background-size: 164px 29px;
     position: absolute;
     width: 164px;
     height: 29px;
@@ -95,3 +99,12 @@ background-size: 164px 49px
     top: 42px;
 }
 
+.videogames {
+    position: absolute;
+    width: 1440px;
+    height: 84px;
+    left: 0px;
+    top: 781px;
+
+    background: rgba(217, 217, 217, 0.75);
+}
