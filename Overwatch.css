@@ -150,7 +150,7 @@
     position: relative;
 }
 
-#slider img{
+#slider img {
     opacity: 0;
 
     position: absolute;
@@ -161,10 +161,27 @@
 
     object-fit: cover;
 
-    transition: 500ms;
+    transition: 700ms;
 }
 
-#slider img.selected { 
+#slider img.selected {
     opacity: 1;
 }
 
+.blizardpreto{
+    background-image: url(blizard.png);
+    background-size: 86px 77px;
+    position: absolute;
+    width: 86px;
+    height: 77px;
+    top: 6px;
+    background-color: blue;
+}
+
+.blizardpreto:hover {
+    background-image: url(blizardpreto.png);
+    background-size: 86px 77px;
+    position:absolute;
+    top: 6px;
+    background-color: aqua;
+}
