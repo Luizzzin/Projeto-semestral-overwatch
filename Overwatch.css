@@ -175,6 +175,7 @@
     width: 86px;
     height: 72px;
     top: 10px;
+    left: 319px;
 }
 
 .blizardpreto:hover {
@@ -182,6 +183,7 @@
     background-size: 86px 78px;
     position: absolute;
     top: 7px;
+    left: 319px;
 }
 
 .xboxpreto {
@@ -191,6 +193,7 @@
     width: 200px;
     height: 100px;
     top: -5px;
+    left: 466px;
 }
 
 .xboxpreto:hover {
@@ -200,6 +203,7 @@
     height: 100px;
     position: absolute;
     top: -6px;
+    left: 466px;
 }
 
 .playstationpreto {
@@ -209,7 +213,9 @@
     height: 61px;
     position: absolute;
     top: 17px;
+    left: 685px;
 }
+
 .playstationpreto:hover {
     background-image: url(playstationpreto.png);
     background-size: 278px 107px;
@@ -217,19 +223,25 @@
     height: 100px;
     position: absolute;
     top: -5px;
+    left: 685px;
 }
-.switchpreto{
+
+.switchpreto {
     background-image: url(switch.png);
-    background-size: 200px 100px;
+    background-size: 86px 77px;
     position: absolute;
-    width: 200px;
-    height:100px ;
+    width: 86px;
+    height: 77px;
+    top: 8px;
+    left: 1024px;
 }
 
 .switchpreto:hover {
     background-image: url(switchpreto.png);
-    background-size: 200px 100px;
-    width: 200px;
-    height: 100px;
-position: absolute;
+    background-size: 86px 86px;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: 4px;
+    left: 1024px;
 }
