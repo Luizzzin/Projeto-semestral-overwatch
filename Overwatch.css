@@ -155,10 +155,9 @@
 
     position: absolute;
 
-    width: 1000px;
-    height: 500px;
-    left: -250px;
-    top:700px;
+    width: 100vw;
+    height: 681px;
+    top: -5px;
 
     object-fit: cover;
 
