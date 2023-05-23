@@ -170,12 +170,11 @@
 
 .blizardpreto{
     background-image: url(blizard.png);
-    background-size: 86px 77px;
+    background-size: 86px 71px;
     position: absolute;
     width: 86px;
-    height: 77px;
-    top: 6px;
-    background-color: blue;
+    height: 71px;
+    top: 9px;
 }
 
 .blizardpreto:hover {
@@ -183,5 +182,4 @@
     background-size: 86px 77px;
     position:absolute;
     top: 6px;
-    background-color: aqua;
 }
