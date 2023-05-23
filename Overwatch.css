@@ -268,26 +268,22 @@
     left: 917px;
     top: 1972px;
 }
+.histblack{
+    width: 190px;
+    height:25px;
+}
 
 .conheçahistoria {
-    background-image: url(imagens/conheçahistoria.png);
-    background-size: 262px 65px;
+    background-color: white;
+    border-radius: 10px;
     position: absolute;
     width: 262px;
     height: 65px;
     left: 346px;
     top: 2346px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.conheçahistoria:hover {
-    background-image: url(imagens/conheçahistorialaranja.png);
-    background: size 267px 65px ;
-    position: absolute;
-    width: 262px;
-    height: 65px;
-    left: 346px;
-    top: 2346px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
