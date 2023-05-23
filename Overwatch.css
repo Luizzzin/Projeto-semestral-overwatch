@@ -110,9 +110,25 @@
     background: rgba(217, 217, 217, 0.75);
 }
 
+.tela{
+    width: 100vw;
+    height: 430px;
+    display: flex;
+
+}
+
 .tela1{
     position: absolute;
     width: 100vw;
     height: 430px;
     top: 870px;
+}
+
+.window{
+    position: absolute;
+    width: 311px;
+    height: 380px;
+    left: 911px;
+    top: 1000px;
+    
 }
