@@ -34,7 +34,7 @@
 }
 
 .botão1 {
-    background-image: url(historia\ jogo.png);
+    background-image: url(imagens/historia\ jogo.png);
     background-size: 204px 29px;
     position: absolute;
     width: 204px;
@@ -44,7 +44,7 @@
 }
 
 .botão1:hover {
-    background-image: url(imagem\ efeito.png);
+    background-image: url(imagens/imagem\ efeito.png);
     background-size: 204px 48px;
     position: absolute;
     width: 204px;
@@ -54,7 +54,7 @@
 }
 
 .botão2 {
-    background-image: url(herois.png);
+    background-image: url(imagens/herois.png);
     background-size: 164px 29px;
     position: absolute;
     width: 164px;
@@ -65,7 +65,7 @@
 }
 
 .botão2:hover {
-    background-image: url(herois\ laranja.png);
+    background-image: url(imagens/herois\ laranja.png);
     background-size: 171px 49px;
     position: absolute;
     width: 164px;
@@ -75,7 +75,7 @@
 }
 
 .botão3 {
-    background-image: url(mapas.png);
+    background-image: url(imagens/mapas.png);
     background-size: 164px 29px;
     position: absolute;
     width: 164px;
@@ -85,12 +85,12 @@
 }
 
 .botão3:hover {
-    background-image: url(conheça\ os\ mapas\ laranja.png);
+    background-image: url(imagens/conheça\ os\ mapas\ laranja.png);
     background-size: 164px 49px
 }
 
 .botão4 {
-    background-image: url(adquira\ o\ jogo.png);
+    background-image: url(imagens/adquira\ o\ jogo.png);
     background-size: 164px 29px;
     position: absolute;
     width: 164px;
@@ -169,7 +169,7 @@
 }
 
 .blizardpreto {
-    background-image: url(blizard.png);
+    background-image: url(imagens/blizard.png);
     background-size: 86px 72px;
     position: absolute;
     width: 86px;
@@ -179,7 +179,7 @@
 }
 
 .blizardpreto:hover {
-    background-image: url(blizardpreto.png);
+    background-image: url(imagens/blizardpreto.png);
     background-size: 86px 78px;
     position: absolute;
     top: 7px;
@@ -188,7 +188,7 @@
 
 .xboxpreto {
     background-size: 200px 100px;
-    background-image: url(xbox.png);
+    background-image: url(imagens/xbox.png);
     position: absolute;
     width: 200px;
     height: 100px;
@@ -197,7 +197,7 @@
 }
 
 .xboxpreto:hover {
-    background-image: url(xboxpreto.png);
+    background-image: url(imagens/xboxpreto.png);
     background-size: 200px 100px;
     width: 200px;
     height: 100px;
@@ -207,7 +207,7 @@
 }
 
 .playstationpreto {
-    background-image: url(playstation.png);
+    background-image: url(imagens/playstation.png);
     background-size: 278px 61px;
     width: 278px;
     height: 61px;
@@ -217,7 +217,7 @@
 }
 
 .playstationpreto:hover {
-    background-image: url(playstationpreto.png);
+    background-image: url(imagens/playstationpreto.png);
     background-size: 278px 107px;
     width: 278px;
     height: 100px;
@@ -227,7 +227,7 @@
 }
 
 .switchpreto {
-    background-image: url(switch.png);
+    background-image: url(imagens/switch.png);
     background-size: 86px 77px;
     position: absolute;
     width: 86px;
@@ -237,11 +237,18 @@
 }
 
 .switchpreto:hover {
-    background-image: url(switchpreto.png);
+    background-image: url(imagens/switchpreto.png);
     background-size: 86px 86px;
     width: 86px;
     height: 86px;
     position: absolute;
     top: 4px;
     left: 1024px;
+}
+
+.telita{
+    width: 100vw;
+    height: 540px;
+    position: absolute;
+    top: 1972px;
 }
