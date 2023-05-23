@@ -110,30 +110,30 @@
     background: rgba(217, 217, 217, 0.75);
 }
 
-.tela{
+.tela {
     width: 100vw;
     height: 430px;
     display: flex;
 
 }
 
-.tela1{
+.tela1 {
     position: absolute;
     width: 100vw;
     height: 430px;
     top: 870px;
 }
 
-.window{
+.window {
     position: absolute;
     width: 311px;
     height: 380px;
     left: 980px;
     top: 919px;
-    
+
 }
 
-.jogo{
+.jogo {
     position: absolute;
     width: 600px;
     height: auto;
