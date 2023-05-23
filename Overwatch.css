@@ -128,7 +128,15 @@
     position: absolute;
     width: 311px;
     height: 380px;
-    left: 911px;
-    top: 1000px;
+    left: 980px;
+    top: 919px;
     
+}
+
+.jogo{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 210px;
+    top: 950px;
 }
