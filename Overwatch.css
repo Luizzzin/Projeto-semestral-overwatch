@@ -168,18 +168,68 @@
     opacity: 1;
 }
 
-.blizardpreto{
+.blizardpreto {
     background-image: url(blizard.png);
-    background-size: 86px 71px;
+    background-size: 86px 72px;
     position: absolute;
     width: 86px;
-    height: 71px;
-    top: 9px;
+    height: 72px;
+    top: 10px;
 }
 
 .blizardpreto:hover {
     background-image: url(blizardpreto.png);
-    background-size: 86px 77px;
-    position:absolute;
-    top: 6px;
+    background-size: 86px 78px;
+    position: absolute;
+    top: 7px;
+}
+
+.xboxpreto {
+    background-size: 200px 100px;
+    background-image: url(xbox.png);
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: -5px;
+}
+
+.xboxpreto:hover {
+    background-image: url(xboxpreto.png);
+    background-size: 200px 100px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: -6px;
+}
+
+.playstationpreto {
+    background-image: url(playstation.png);
+    background-size: 278px 61px;
+    width: 278px;
+    height: 61px;
+    position: absolute;
+    top: 17px;
+}
+.playstationpreto:hover {
+    background-image: url(playstationpreto.png);
+    background-size: 278px 107px;
+    width: 278px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+}
+.switchpreto{
+    background-image: url(switch.png);
+    background-size: 200px 100px;
+    position: absolute;
+    width: 200px;
+    height:100px ;
+}
+
+.switchpreto:hover {
+    background-image: url(switchpreto.png);
+    background-size: 200px 100px;
+    width: 200px;
+    height: 100px;
+position: absolute;
 }
