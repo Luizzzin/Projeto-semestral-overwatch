@@ -246,16 +246,48 @@
     left: 1024px;
 }
 
-.telita{
+.telita {
     width: 100vw;
     height: 540px;
     position: absolute;
     top: 1972px;
 }
 
-.textohistoria{
+.textohistoria {
     width: 681px;
-    height: 184px;
+    height: 220px;
     position: absolute;
-    top: 2136px;
+    top: 2080px;
+    left: 170px;
+}
+
+.tracerperfil {
+    position: absolute;
+    width: 523px;
+    height: 540px;
+    left: 917px;
+    top: 1972px;
+}
+
+.conheçahistoria {
+    background-image: url(imagens/conheçahistoria.png);
+    background-size: 262px 65px;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 346px;
+    top: 2346px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.conheçahistoria:hover {
+    background-image: url(imagens/conheçahistorialaranja.png);
+    background: size 267px 65px ;
+    position: absolute;
+    width: 262px;
+    height: 65px;
+    left: 346px;
+    top: 2346px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
