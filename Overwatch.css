@@ -109,3 +109,10 @@
     justify-content: space-around;
     background: rgba(217, 217, 217, 0.75);
 }
+
+.tela1{
+    position: absolute;
+    width: 100vw;
+    height: 430px;
+    top: 870px;
+}
