@@ -255,17 +255,17 @@
 
 .textohistoria {
     width: 681px;
-    height: 220px;
+    height: 230px;
     position: absolute;
     top: 2080px;
-    left: 170px;
+    left: 130px;
 }
 
 .tracerperfil {
     position: absolute;
     width: 523px;
     height: 540px;
-    left: 917px;
+    left: 795px;
     top: 1972px;
 }
 
@@ -275,16 +275,16 @@
 }
 
 .conheçahistoria {
-    background-image: url(hitblack.png);
+    background-image: url(histblack.png);
     background-color: white;
     background-position: center;
-    background-size: 190px 25px;
+    background-size: 190px 30px;
     background-repeat: no-repeat;
     border-radius: 10px;
     position: absolute;
     width: 262px;
     height: 65px;
-    left: 346px;
+    left: 306px;
     top: 2346px;
     display: flex;
     align-items: center;
@@ -299,13 +299,13 @@
     background-color: rgb(255, 136, 0);
     background-image: url(histwhite.png);
     background-position: center;
-    background-size: 190px 25px;
+    background-size: 190px 30px;
     background-repeat: no-repeat;
     border-radius: 10px;
     position: absolute;
     width: 262px;
     height: 65px;
-    left: 346px;
+    left: 306px;
     top: 2346px;
     display: flex;
     align-items: center;
