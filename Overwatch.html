@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="overwatch.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Wiki Overwatch</title>
 </head>
 
@@ -42,8 +43,8 @@
     </div>
 
     <div class="tela"><img class="tela1" src="imagens/tela.png" alt="tela">
-        <img class="window" src="imagens/windowmaker.png" alt="windowmaker">
-        <img class="jogo" src="imagens/jogo.png" alt="texto">
+        <img data-aos="fade-left" class="window" src="imagens/windowmaker.png" alt="windowmaker">
+        <img data-aos="fade-right" class="jogo" src="imagens/jogo.png" alt="texto">
     </div>
 
     <div id="slider">
@@ -57,10 +58,10 @@
     <script src="overwatch.js"></script>
 
     <div> <img class="telita" src="imagens/telita.png" alt="">
-        <img class="textohistoria" src="imagens/historia do jogo.png" alt="">
-        <img class="tracerperfil" src="imagens/tracerperfil.png" alt="">
+        <img data-aos="fade-up" class="textohistoria" src="imagens/historia do jogo.png" alt="">
+        <img data-aos="fade-left" class="tracerperfil" src="imagens/tracerperfil.png" alt="">
         <a href="#">
-            <div class="conheçahistoria">
+            <div data-aos="fade-up" class="conheçahistoria">
                 <div class="histblack"></div>
             </div>
         </a>
@@ -68,19 +69,25 @@
 
     <div>
         <img class="tela2" src="tela2.png">
-        <img src="moira.png" class="moira">
+        <img data-aos="fade-right" src="moira.png" class="moira">
         <img src="barralaranja.png" class="barralaranja">
-        <img src="persons.png" class="persons">
+        <img data-aos="fade-up" src="persons.png" class="persons">
         <a href="#">
-            <div class="herois"></div>
+            <div data-aos="fade-up" class="herois"></div>
         </a>
 
     </div>
 
     <div>
         <img src="imagens/telita.png" class="tela3">
+        <img src="mapas.png" alt="" class="mapas">
 
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 
