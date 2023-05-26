@@ -385,5 +385,8 @@
 }
 
 .tela3{
-    
+    width: 100vw;
+    height: 494px;
+    top: 2961px;
+    position: absolute;
 }
