@@ -397,8 +397,16 @@ background {
 
 .mapas{
     width: 783px;
-    height: 497px;
-    left: 550px;
+    height: 494px;
+    left: 536px;
     top: 2961px;
     position: absolute;
+}
+
+.tri{
+    width: 90px ;
+    height: 493px; ;
+    top: 2961px;
+    position: absolute;
+    left: 497px;
 }
