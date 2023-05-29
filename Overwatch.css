@@ -343,10 +343,10 @@ background {
 
 .persons {
     position: absolute;
-    width: 569px;
-    height: 160px;
+    width: 609px;
+    height: 200px;
     left: 681px;
-    top: 2622px;
+    top: 2585px;
 }
 
 .herois {
@@ -412,9 +412,9 @@ background {
 }
 
 .conhecaMapas{
-    width: 616px;
-    height: 177px;
+    width: 586px;
+    height: 147px;
     position: absolute;
-    top: 3120px;
+    top: 3090px;
     left: 73px;
 }
