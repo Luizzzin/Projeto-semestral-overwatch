@@ -269,7 +269,7 @@ background {
     position: absolute;
     width: 523px;
     height: 540px;
-    left: 795px;
+    left: 958px;
     top: 1972px;
 }
 
@@ -409,4 +409,12 @@ background {
     top: 2961px;
     position: absolute;
     left: 534px;
+}
+
+.conhecaMapas{
+    width: 616px;
+    height: 177px;
+    position: absolute;
+    top: 3110px;
+    left: 73px;
 }
