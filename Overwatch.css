@@ -524,5 +524,11 @@ background {
  .iconeyt{
     width: 64px;
     height: 50px;
-    margin: 50px;
+    margin: 100px;
  }
+
+ .iconeins{
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+}
