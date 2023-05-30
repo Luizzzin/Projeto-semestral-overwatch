@@ -462,3 +462,38 @@ background {
     position: absolute;
     top: 3455px;
 }
+.tela5{
+    background-color: #C8D6EB;
+    width: 100vw;
+    height: 450px;
+    position: absolute;
+    top: 4210px;
+}
+.cima{
+    position:absolute;
+    top: 4210px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+}
+.baixo{
+    position:absolute;
+    top: 4646px;
+    width: 530px;
+    height: 14px;
+    z-index: 1;
+    left: 1006px;
+}
+.cubana{
+    position: absolute;
+    width: 427px;
+    height: 375px;
+    top: 4285px;
+    left:28px;
+}
+ .att{
+    position: absolute;
+    width: 681px;
+    height: 262px;
+
+ }
