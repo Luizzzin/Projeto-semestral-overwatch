@@ -45,6 +45,7 @@ background {
     height: 29px;
     left: 500px;
     top: 42px;
+    
 }
 
 .botão1:hover {
@@ -522,26 +523,30 @@ background {
  }
 
  .iconeyt{
-    width: 64px;
-    height: 50px;
+    width: 54px;
+    height: 40px;
     margin: 100px;
+ }
+ 
+ .iconeyt:hover{
+
  }
 
  .iconeins{
-    width: 64px;
-    height: 64px;
+    width: 41px;
+    height: 41px;
     margin-right: 100px;
 }
 
 .iconeface{
-    width: 64px;
-    height: 64px;
+    width: 41px;
+    height: 41px;
     margin-right: 100px;
 }
 
 
 .iconett{
-    width: 64px;
-    height: 64px;
+    width: 41px;
+    height: 41px;
     margin-right: 100px;
 }
