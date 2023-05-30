@@ -528,7 +528,20 @@ background {
  }
 
  .iconeins{
-    width: 41px;
-    height: 41px;
+    width: 64px;
+    height: 64px;
+    margin-right: 100px;
+}
+
+.iconeface{
+    width: 64px;
+    height: 64px;
+    margin-right: 100px;
+}
+
+
+.iconett{
+    width: 64px;
+    height: 64px;
     margin-right: 100px;
 }
