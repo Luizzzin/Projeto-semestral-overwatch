@@ -258,7 +258,7 @@ background {
 }
 
 .textohistoria {
-    width: 681px;
+    width:  701px;
     height: 230px;
     position: absolute;
     top: 2080px;
@@ -493,7 +493,36 @@ background {
 }
  .att{
     position: absolute;
-    width: 681px;
-    height: 262px;
+    width: 695px;
+    height: 255px;
+    left: 610px;
+    top: 4290px;
+ }
+ .novidades{
+    background-color: #171A2C;
+    height: 137px;
+    width: 100vw;
+    position: absolute;
+    top: 4660px;
+    display: flex;
+    align-items: center;
+    
+ }
 
+ @font-face {
+    font-family: 'fonti' ;
+    src: url(font/big_noodle_titling.ttf);
+ }
+
+ .ligado{
+    font: 200 64px 'fonti', sans-serif;
+    color: #B5C1CD;
+    margin-left: 106px;
+    
+ }
+
+ .iconeyt{
+    width: 64px;
+    height: 50px;
+    margin: 50px;
  }
