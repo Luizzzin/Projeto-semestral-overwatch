@@ -343,10 +343,10 @@ background {
 
 .persons {
     position: absolute;
-    width: 609px;
-    height: 200px;
+    width: 619px;
+    height: 210px;
     left: 681px;
-    top: 2585px;
+    top: 2575px;
 }
 
 .herois {
@@ -396,7 +396,7 @@ background {
 }
 
 .mapas{
-    width: 660px;
+    width: 820px;
     height: 494px;
     left: 699px;
     top: 2961px;
