@@ -396,7 +396,7 @@ background {
 }
 
 .mapas{
-    width: 783px;
+    width: 660px;
     height: 494px;
     left: 699px;
     top: 2961px;
@@ -404,7 +404,7 @@ background {
 }
 
 .tri{
-    width: 90px ;
+    width: 100px ;
     height: 493px; ;
     top: 2961px;
     position: absolute;
@@ -419,38 +419,37 @@ background {
     left: 73px;
 }
 .botaoMapas {
-    background-image: url(heroisblack.png);
+    background-image: url(mapablack.png);
     background-color: white;
     background-position: center;
     background-size: 190px 30px;
     background-repeat: no-repeat;
     border-radius: 10px;
     position: absolute;
-    width: 262px;
+    width: 267px;
     height: 65px;
-    left: 825px;
-    top: 2816px;
+    left: 219px;
+    top: 3270px;
     display: flex;
     align-items: center;
     justify-content: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     transition: background-color 1s ease;
-
 }
 
 .botaoMapas:hover {
     background-color: rgb(255, 136, 0);
-    background-image: url(heroiswhite.png);
+    background-image: url(mapawhite.png);
     background-position: center;
     background-size: 190px 30px;
     background-repeat: no-repeat;
     border-radius: 10px;
     position: absolute;
-    width: 262px;
+    width: 267px;
     height: 65px;
-    left: 825px;
-    top: 2816px;
+    left: 219px;
+    top: 3270px;
     display: flex;
     align-items: center;
     justify-content: center;
