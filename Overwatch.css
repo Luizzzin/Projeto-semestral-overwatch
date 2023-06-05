@@ -526,9 +526,15 @@ background {
     width: 54px;
     height: 40px;
     margin: 100px;
+    transition: 0.5s ease;
  }
  
  .iconeyt:hover{
+    width: 54px;
+    height: 40px;
+    margin: 100px;
+    z-index: 1;
+    transform: scale(1.1);
 
  }
 
