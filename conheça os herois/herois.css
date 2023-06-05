@@ -37,13 +37,13 @@
 .botão1 {
     font: 200 24px 'fonti', sans-serif;
     margin-left: 58px;
-    margin-right: 75px;
+    margin-right: 90px;
     color: black;
 }
 
 .botão1:hover {
     color: #da6025;
-    border-bottom: black;
+    border-bottom: 3px solid black;
 
 
 }
@@ -55,16 +55,40 @@ a {
 
 .botão2 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 75px;
+    margin-right: 90px;
     color: black;
+}
+
+.botão2:hover{
+    border-bottom: 3px solid black;
 }
 
 .botão3 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 75px;
+    margin-right: 90px;
     color: black;
 }
 
-#link {
+.botão3:hover{
+    border-bottom: 3px solid black;
+}
+
+.botão4{
+    font: 200 24px 'fonti', sans-serif;
+    color: black;
+
+}
+
+#link{
+    color: black;
+}
+
+#link:hover{
+    color: #da6025;
+    
+    border-bottom: 3px solid black;
+}
+
+.ink{
     color: black;
 }
