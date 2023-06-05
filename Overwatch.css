@@ -44,7 +44,7 @@ background {
     width: 204px;
     height: 29px;
     left: 500px;
-    top: 42px;
+    top: 37px;
 
 }
 
@@ -55,7 +55,7 @@ background {
     width: 204px;
     height: 29px;
     left: 500px;
-    top: 42px;
+    top: 37px;
 }
 
 .botão2 {
@@ -65,7 +65,7 @@ background {
     width: 164px;
     height: 29px;
     left: 770px;
-    top: 42px;
+    top: 37px;
 
 }
 
@@ -76,7 +76,7 @@ background {
     width: 164px;
     height: 29px;
     left: 770px;
-    top: 42px;
+    top: 37px;
 }
 
 .botão3 {
@@ -86,7 +86,7 @@ background {
     width: 164px;
     height: 29px;
     left: 990px;
-    top: 42px;
+    top: 37px;
 }
 
 .botão3:hover {
@@ -101,7 +101,7 @@ background {
     width: 164px;
     height: 29px;
     left: 1200px;
-    top: 42px;
+    top: 37px;
 }
 
 .videogames {
@@ -344,7 +344,7 @@ background {
 
 .persons {
     position: absolute;
-    width: 619px;
+    width: 649px;
     height: 210px;
     left: 681px;
     top: 2575px;

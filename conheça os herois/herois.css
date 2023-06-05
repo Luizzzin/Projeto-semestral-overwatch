@@ -1,0 +1,44 @@
+/* reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* fim reset */
+
+/* header */
+.elemento {
+    width: 100vw;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 66.58px;
+    height: 66.58px;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.nome { 
+    width: 310.52px;
+    height: 48.69px;
+}
+
+@font-face {
+    font-family:'fonti';
+    src: url(font/big_noodle_titling.ttf);
+}
+
+.botão1{
+    font: 100 10px 'fonti', sans-serif;
+    margin-left: 58px;
+    color: black;
+}
+
+#link{
+    text-decoration: none;
+}
