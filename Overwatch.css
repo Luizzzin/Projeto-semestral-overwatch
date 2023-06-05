@@ -45,7 +45,7 @@ background {
     height: 29px;
     left: 500px;
     top: 42px;
-    
+
 }
 
 .botão1:hover {
@@ -259,7 +259,7 @@ background {
 }
 
 .textohistoria {
-    width:  701px;
+    width: 701px;
     height: 230px;
     position: absolute;
     top: 2080px;
@@ -396,7 +396,7 @@ background {
     position: absolute;
 }
 
-.mapas{
+.mapas {
     width: 837px;
     height: 494px;
     left: 699px;
@@ -404,21 +404,23 @@ background {
     position: absolute;
 }
 
-.tri{
-    width: 100px ;
-    height: 493px; ;
+.tri {
+    width: 100px;
+    height: 493px;
+    ;
     top: 2961px;
     position: absolute;
     left: 534px;
 }
 
-.conhecaMapas{
+.conhecaMapas {
     width: 586px;
     height: 147px;
     position: absolute;
     top: 3090px;
     left: 73px;
 }
+
 .botaoMapas {
     background-image: url(mapablack.png);
     background-color: white;
@@ -457,49 +459,55 @@ background {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.sigma{
+.sigma {
     width: 100vw;
     height: 780;
     position: absolute;
     top: 3455px;
 }
-.tela5{
+
+.tela5 {
     background-color: #C8D6EB;
     width: 100vw;
     height: 450px;
     position: absolute;
     top: 4210px;
 }
-.cima{
-    position:absolute;
+
+.cima {
+    position: absolute;
     top: 4210px;
     width: 530px;
     height: 14px;
     z-index: 1;
 }
-.baixo{
-    position:absolute;
+
+.baixo {
+    position: absolute;
     top: 4646px;
     width: 530px;
     height: 14px;
     z-index: 1;
     left: 1006px;
 }
-.cubana{
+
+.cubana {
     position: absolute;
     width: 427px;
     height: 375px;
     top: 4285px;
-    left:28px;
+    left: 28px;
 }
- .att{
+
+.att {
     position: absolute;
     width: 695px;
     height: 255px;
     left: 610px;
     top: 4290px;
- }
- .novidades{
+}
+
+.novidades {
     background-color: #171A2C;
     height: 137px;
     width: 100vw;
@@ -507,52 +515,68 @@ background {
     top: 4660px;
     display: flex;
     align-items: center;
-    
- }
 
- @font-face {
-    font-family: 'fonti' ;
+}
+
+@font-face {
+    font-family: 'fonti';
     src: url(font/big_noodle_titling.ttf);
- }
+}
 
- .ligado{
+.ligado {
     font: 200 64px 'fonti', sans-serif;
     color: #B5C1CD;
     margin-left: 106px;
-    
- }
 
- .iconeyt{
+}
+
+.iconeyt {
     width: 54px;
     height: 40px;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     transition: 0.5s ease;
- }
- 
- .iconeyt:hover{
-    width: 54px;
-    height: 40px;
-    margin: 100px;
-    z-index: 1;
+}
+
+.iconeyt:hover {
+    margin-left: 100px;
+    margin-right: 100px;
     transform: scale(1.1);
 
- }
-
- .iconeins{
-    width: 41px;
-    height: 41px;
-    margin-right: 100px;
 }
 
-.iconeface{
+.iconeins {
     width: 41px;
     height: 41px;
     margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconeins:hover {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transform: scale(1.1);
+}
+
+.iconeface {
+    width: 41px;
+    height: 41px;
+    margin-right: 100px;
+    transition: 0.5s ease;
+}
+.iconeface:hover{
+    transform: scale(1.1);
 }
 
 
-.iconett{
-    width: 41px;
+.iconett {
+    width: 42px;
     height: 41px;
     margin-right: 100px;
+    transition: 0.5s ease;
+}
+
+.iconett:hover{
+    transform: scale(1.1);
 }
