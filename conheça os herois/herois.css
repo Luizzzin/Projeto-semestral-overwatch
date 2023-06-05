@@ -4,6 +4,7 @@
     border: 0;
     padding: 0;
 }
+
 /* fim reset */
 
 /* header */
@@ -23,22 +24,47 @@
     margin-right: 20px;
 }
 
-.nome { 
+.nome {
     width: 310.52px;
     height: 48.69px;
 }
 
 @font-face {
-    font-family:'fonti';
+    font-family: 'fonti';
     src: url(font/big_noodle_titling.ttf);
 }
 
-.botão1{
-    font: 100 10px 'fonti', sans-serif;
+.botão1 {
+    font: 200 24px 'fonti', sans-serif;
     margin-left: 58px;
+    margin-right: 75px;
     color: black;
 }
 
-#link{
+.botão1:hover {
+    color: #da6025;
+    border-bottom: black;
+
+
+}
+
+a {
+    margin: 0;
     text-decoration: none;
+}
+
+.botão2 {
+    font: 200 24px 'fonti', sans-serif;
+    margin-right: 75px;
+    color: black;
+}
+
+.botão3 {
+    font: 200 24px 'fonti', sans-serif;
+    margin-right: 75px;
+    color: black;
+}
+
+#link {
+    color: black;
 }
