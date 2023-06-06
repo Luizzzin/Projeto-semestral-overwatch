@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* fim reset */
@@ -59,7 +60,7 @@ a {
     color: black;
 }
 
-.botão2:hover{
+.botão2:hover {
     border-bottom: 3px solid black;
 }
 
@@ -69,37 +70,127 @@ a {
     color: black;
 }
 
-.botão3:hover{
+.botão3:hover {
     border-bottom: 3px solid black;
 }
 
-.botão4{
+.botão4 {
     font: 200 24px 'fonti', sans-serif;
     color: black;
 
 }
 
-#link{
+#link {
     color: black;
 }
 
-#link:hover{
+#link:hover {
     color: #da6025;
-    
+
     border-bottom: 3px solid black;
 }
 
-.ink{
+.ink {
     color: black;
 }
 
-.mapaRosa{
+.mapaRosa {
     width: 100vw;
     height: 575px;
 
 }
-/* slider */
+.mapa {
+    width: 100vw;
+    height: 575px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.gordo {
+    width: 1500px;
+    height: 500px;
+}
+
+.matheus{
+    width: 1500px;
+    height: 500px;
+}
+
+.genji{
+    width: 1400px;
+    height: 500px;
+}
+
+.slider{
+    width: 1500px;
+    height: 500px;
+    overflow: hidden;
+    left: 10px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 1500px;
+    height: 500px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.manual-btn{
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+
+.manual-btn:hover{
+    background-color: gray;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+     
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
     
-
-/* fim slider */
-
+     
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+    
+     
+}
+body{
+    background-color: #c8d6eb;
+}
