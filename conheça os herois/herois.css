@@ -99,6 +99,7 @@ a {
     height: 575px;
 
 }
+
 .mapa {
     width: 100vw;
     height: 575px;
@@ -113,17 +114,17 @@ a {
     height: 500px;
 }
 
-.matheus{
+.matheus {
     width: 1500px;
     height: 500px;
 }
 
-.genji{
+.genji {
     width: 1400px;
     height: 500px;
 }
 
-.slider{
+.slider {
     width: 1500px;
     height: 500px;
     overflow: hidden;
@@ -133,25 +134,28 @@ a {
     justify-content: center;
 }
 
-.slides{
+.slides {
     width: 500%;
     height: 500px;
     display: flex;
 }
-.slides input{
+
+.slides input {
     display: none;
 
 }
-.slide{
+
+.slide {
     width: 20%;
     transition: 2s;
 }
-.slide img{
+
+.slide img {
     width: 1500px;
     height: 500px;
 }
 
-.navigation-manual{
+.navigation-manual {
     position: absolute;
     width: 1500px;
     display: flex;
@@ -159,7 +163,7 @@ a {
     margin-top: -40px;
 }
 
-.manual-btn{
+.manual-btn {
     border: 2px solid gray;
     padding: 5px;
     border-radius: 10px;
@@ -167,30 +171,56 @@ a {
     transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 
 }
 
-.manual-btn:hover{
+.manual-btn:hover {
     background-color: gray;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked~.first {
     margin-left: 0;
 
-     
+
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
     margin-left: -20%;
-    
-     
+
+
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
     margin-left: -40%;
-    
-     
+
+
 }
-body{
+
+body {
     background-color: #c8d6eb;
+}
+
+.class{
+    background-color: aqua;
+    width: 100vw;
+    height: 737px;
+    display: flex;
+}
+.tanks{
+    background-color: red;
+    width: 30vw;
+    height: 737px;
+}
+.danos{
+    background-color: #da6025;
+    width: 40vw;
+    height: 737px;
+
+}
+.sups{
+    background-color: red;
+    width: 30vw;
+    height: 737px;
 }
