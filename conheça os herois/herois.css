@@ -202,24 +202,47 @@ body {
     background-color: #c8d6eb;
 }
 
-.class{
+.class {
     background-color: aqua;
     width: 100vw;
     height: 737px;
     display: flex;
 }
-.tanks{
+
+.tanks {
     background-color: red;
     width: 30vw;
     height: 737px;
+    padding-top: 120px;
+
 }
-.danos{
+
+#tank {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.linha {
+    background-color: aqua;
+    margin: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.danos {
     background-color: #da6025;
     width: 40vw;
     height: 737px;
 
 }
-.sups{
+
+.sups {
     background-color: red;
     width: 30vw;
     height: 737px;
