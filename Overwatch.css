@@ -270,7 +270,7 @@ background {
     position: absolute;
     width: 523px;
     height: 540px;
-    left: 1012px;
+    left: 837px;
     top: 1972px;
 }
 
@@ -397,7 +397,7 @@ background {
 }
 
 .mapas {
-    width: 837px;
+    width: 660px;
     height: 494px;
     left: 699px;
     top: 2961px;
@@ -469,14 +469,14 @@ background {
 .tela5 {
     background-color: #C8D6EB;
     width: 100vw;
-    height: 450px;
+    height: 500px;
     position: absolute;
-    top: 4210px;
+    top: 4120px;
 }
 
 .cima {
     position: absolute;
-    top: 4210px;
+    top: 4120px;
     width: 530px;
     height: 14px;
     z-index: 1;
@@ -484,18 +484,18 @@ background {
 
 .baixo {
     position: absolute;
-    top: 4646px;
+    top: 4606px;
     width: 530px;
     height: 14px;
     z-index: 1;
-    left: 1006px;
+    left: 830px;
 }
 
 .cubana {
     position: absolute;
     width: 427px;
     height: 375px;
-    top: 4285px;
+    top: 4245px;
     left: 28px;
 }
 
@@ -504,7 +504,7 @@ background {
     width: 695px;
     height: 255px;
     left: 610px;
-    top: 4290px;
+    top: 4240px;
 }
 
 .novidades {
@@ -512,7 +512,7 @@ background {
     height: 137px;
     width: 100vw;
     position: absolute;
-    top: 4660px;
+    top: 4620px;
     display: flex;
     align-items: center;
 

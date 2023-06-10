@@ -38,7 +38,7 @@
 .botão1 {
     font: 200 24px 'fonti', sans-serif;
     margin-left: 58px;
-    margin-right: 90px;
+    margin-right: 80px;
     color: black;
 }
 
@@ -56,7 +56,7 @@ a {
 
 .botão2 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 90px;
+    margin-right: 80px;
     color: black;
 }
 
@@ -66,7 +66,7 @@ a {
 
 .botão3 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 90px;
+    margin-right: 80px;
     color: black;
 }
 
@@ -125,7 +125,7 @@ a {
 }
 
 .slider {
-    width: 1500px;
+    width: 98vw;
     height: 500px;
     overflow: hidden;
     left: 10px;
