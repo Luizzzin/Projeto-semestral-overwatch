@@ -201,7 +201,7 @@ a {
 body {
     background-color: #c8d0df;
 }
-
+/* botoes das classes */
 .class {
     background-color: #c2c2c2;
     width: 100vw;
@@ -209,7 +209,7 @@ body {
     display: flex;
     background-image: url(fundo\ herois.png);
     background-position: center ;
-    background-size: 100vw 737px;
+    background-size: 105vw 737px;
     background-repeat: no-repeat
     
 }
@@ -227,10 +227,17 @@ body {
     width: 80px;
     height: 80px;
     background-color: gray;
-    border: 1px solid black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+#tank:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .linha {
@@ -252,14 +259,46 @@ body {
     width: 80px;
     height: 80px;
     background-color: gray;
-    border: 1px solid black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 5px;
+    transition: 0.2s ease;
+}
+#dano:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .sups {
     background-color: none;
     width: 30vw;
     height: 737px;
+    padding-top: 120px;
+    padding-right: 70px;
+
+}
+
+#sup{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+
+    transition: 0.2s ease;
+}
+#sup:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+/* fim dos botoes de classes */
+/* botoes individuais */
+
+.dva{
+
 }
