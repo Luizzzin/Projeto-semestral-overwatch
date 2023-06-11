@@ -300,5 +300,105 @@ body {
 /* botoes individuais */
 
 .dva{
-
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
 }
+.dva:hover{
+    border-radius: 10px;
+    background-color: #ff00b8;
+}
+
+.doomfist{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.doomfist:hover{
+    border-radius: 10px;
+    background-color: #5e2903;
+}
+.orisa{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.orisa:hover{
+    border-radius: 10px;
+    background-color: #80ff00;
+}
+.rainha{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.rainha:hover{
+    border-radius: 10px;
+    background-color: #0045cb;
+}
+.ramatra{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.ramatra:hover{
+    border-radius: 10px;
+    background-color: #60076f;
+}
+.reinhardt{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.reinhardt:hover{
+    border-radius: 10px;
+    background-color: #A58B78;
+}
+.roadhog{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.roadhog:hover{
+    border-radius: 10px;
+    background-color: #9C7A21;
+}
+.sigmo{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.sigmo:hover{
+    border-radius: 10px;
+    background-color: #243F9D;
+}
+.winston{
+    width: 76px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.winston:hover{
+    border-radius: 10px;
+    background-color: #243F9D;
+}
+.ratinho{
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.ratinho:hover{
+    border-radius: 10px;
+    background-color: #8F3C00;
+}
+.zarya{
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+.zarya:hover{
+    border-radius: 10px;
+    background-color: #C3208C;
+}
+/* fim botao tanks */
+/* começo botão tanks */
+
