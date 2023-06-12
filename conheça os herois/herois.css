@@ -97,6 +97,7 @@ a {
 .mapaRosa {
     width: 100vw;
     height: 575px;
+    background-color: white;
 
 }
 
@@ -106,6 +107,8 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
+    background-color: #ffffff;
+    
 
 }
 
@@ -160,19 +163,19 @@ a {
     width: 1500px;
     display: flex;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 .manual-btn {
-    border: 2px solid gray;
-    padding: 5px;
+    border: 3px solid rgb(87, 86, 86);
+    padding: 7px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 50px;
 
 }
 
@@ -749,7 +752,7 @@ body {
     justify-content: flex-start;
     font: 200 24px 'fonti', sans-serif;
 }
-
+/* fim botoes */
 .baixo{
     width: 600px;
     
