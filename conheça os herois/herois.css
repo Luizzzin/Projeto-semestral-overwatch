@@ -201,6 +201,7 @@ a {
 body {
     background-color: #c8d0df;
 }
+
 /* botoes das classes */
 .class {
     background-color: #c2c2c2;
@@ -208,14 +209,13 @@ body {
     height: 737px;
     display: flex;
     background-image: url(fundo\ herois.png);
-    background-position: center ;
+    background-position: center;
     background-size: 105vw 737px;
     background-repeat: no-repeat
-    
 }
 
 .tanks {
-    background-color:none;
+    background-color: none;
     width: 30vw;
     height: 737px;
     padding-top: 120px;
@@ -235,7 +235,7 @@ body {
     transition: 0.2s ease;
 }
 
-#tank:hover{
+#tank:hover {
     transform: scale(1.1);
     border-radius: 10px;
 }
@@ -249,13 +249,14 @@ body {
 }
 
 .danos {
-    background-color:none ;
+    background-color: none;
     width: 40vw;
     height: 737px;
     padding-top: 120px;
 
 }
-#dano{
+
+#dano {
     width: 80px;
     height: 80px;
     background-color: gray;
@@ -266,7 +267,8 @@ body {
     border-radius: 5px;
     transition: 0.2s ease;
 }
-#dano:hover{
+
+#dano:hover {
     transform: scale(1.1);
     border-radius: 10px;
 }
@@ -280,7 +282,7 @@ body {
 
 }
 
-#sup{
+#sup {
     width: 80px;
     height: 80px;
     background-color: gray;
@@ -292,113 +294,423 @@ body {
 
     transition: 0.2s ease;
 }
-#sup:hover{
+
+#sup:hover {
     transform: scale(1.1);
     border-radius: 10px;
 }
+
 /* fim dos botoes de classes */
 /* botoes individuais */
 
-.dva{
+.dva {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.dva:hover{
+
+.dva:hover {
     border-radius: 10px;
     background-color: #ff00b8;
 }
 
-.doomfist{
+.doomfist {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.doomfist:hover{
+
+.doomfist:hover {
     border-radius: 10px;
     background-color: #5e2903;
 }
-.orisa{
+
+.orisa {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.orisa:hover{
+
+.orisa:hover {
     border-radius: 10px;
     background-color: #80ff00;
 }
-.rainha{
+
+.rainha {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.rainha:hover{
+
+.rainha:hover {
     border-radius: 10px;
     background-color: #0045cb;
 }
-.ramatra{
+
+.ramatra {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.ramatra:hover{
+
+.ramatra:hover {
     border-radius: 10px;
     background-color: #60076f;
 }
-.reinhardt{
+
+.reinhardt {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.reinhardt:hover{
+
+.reinhardt:hover {
     border-radius: 10px;
     background-color: #A58B78;
 }
-.roadhog{
+
+.roadhog {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.roadhog:hover{
+
+.roadhog:hover {
     border-radius: 10px;
     background-color: #9C7A21;
 }
-.sigmo{
+
+.sigmo {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.sigmo:hover{
+
+.sigmo:hover {
     border-radius: 10px;
     background-color: #243F9D;
 }
-.winston{
+
+.winston {
     width: 76px;
     height: 76px;
     transition: 0.2s ease;
 }
-.winston:hover{
+
+.winston:hover {
     border-radius: 10px;
     background-color: #243F9D;
 }
-.ratinho{
+
+.ratinho {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
-.ratinho:hover{
+
+.ratinho:hover {
     border-radius: 10px;
     background-color: #8F3C00;
 }
-.zarya{
+
+.zarya {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
-.zarya:hover{
+
+.zarya:hover {
     border-radius: 10px;
     background-color: #C3208C;
 }
+
 /* fim botao tanks */
 /* começo botão danos */
 
+.ashe {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.ashe:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.bastion {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.bastion:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.cassidy {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.cassidy:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.echo {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.echo:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.ninja {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.ninja:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.hanzo {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.hanzo:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.junkerat {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.junkerat:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.mei {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.mei:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.pharah {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.pharah:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.reaper {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.reaper:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.sojorn {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.sojorn:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.soldado {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.soldado:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.sombra {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.sombra:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.simmetra {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.simmetra:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.tobjorn {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.tobjorn:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.tracer {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.tracer:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+/* fim dos danos */
+/* começo dos sups */
+
+.ana{
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.ana:hover{
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.batiste {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.batiste:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
+
+.window {
+    width: 80px;
+    height: 76px;
+    transition: 0.2s ease;
+}
+
+.window:hover {
+    border-radius: 10px;
+    background-color: #60076f;
+}
