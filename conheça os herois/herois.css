@@ -767,3 +767,21 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.borrinha{
+    height: 20px;
+    position: absolute;
+    width: 100vw;
+}
+
+.borra{
+    height: 20px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.barra3{
+    width: 600px;
+}
