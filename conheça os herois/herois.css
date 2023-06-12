@@ -219,7 +219,7 @@ body {
     background-color: none;
     width: 30vw;
     height: 737px;
-    padding-top: 120px;
+    padding-top: 52px;
     padding-left: 70px;
     justify-content: center;
 
@@ -243,7 +243,7 @@ body {
 }
 
 .linha {
-    background-color:aqua;
+
     margin: 40px;
     flex-direction: row;
     display: flex;
@@ -254,7 +254,7 @@ body {
     background-color: none;
     width: 40vw;
     height: 737px;
-    padding-top: 120px;
+    padding-top: 52px;
 
 }
 
@@ -279,7 +279,7 @@ body {
     background-color: none;
     width: 30vw;
     height: 737px;
-    padding-top: 120px;
+    padding-top: 52px;
     padding-right: 70px;
 
 }
@@ -616,16 +616,17 @@ body {
     border-radius: 10px;
     background-color: #BD00FF;
 }
+
 /* fim dos danos */
 /* começo dos sups */
 
-.ana{
+.ana {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.ana:hover{
+.ana:hover {
     border-radius: 10px;
     background-color: #093ABA;
 }
@@ -641,7 +642,7 @@ body {
     background-color: #A68B00;
 }
 
-.brigitte{
+.brigitte {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
@@ -716,4 +717,53 @@ body {
 .zenyatta:hover {
     border-radius: 10px;
     background-color: #D0A303;
+}
+
+.linhaNome {
+
+    margin: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 22px;
+    font: 200 24px 'fonti', sans-serif;
+}
+
+.linhaDano {
+
+    margin: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 42px;
+    font: 200 24px 'fonti', sans-serif;
+    
+}
+
+.linhaSup {
+
+    margin: 40px;
+    flex-direction: row;
+    display: flex;
+    padding-left: 22px;
+    justify-content: flex-start;
+    font: 200 24px 'fonti', sans-serif;
+}
+
+.baixo{
+    width: 600px;
+    
+}
+
+.barrinha{
+    height: 20px;
+    position: absolute;
+    width: 100vw;
+}
+.barra2{
+    height: 20px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
 }
