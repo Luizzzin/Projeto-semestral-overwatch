@@ -211,8 +211,8 @@ body {
     background-image: url(fundo\ herois.png);
     background-position: center;
     background-size: 105vw 737px;
-    background-repeat: no-repeat
-    
+    background-repeat: no-repeat;
+
 }
 
 .tanks {
@@ -221,6 +221,7 @@ body {
     height: 737px;
     padding-top: 120px;
     padding-left: 70px;
+    justify-content: center;
 
 }
 
@@ -242,7 +243,7 @@ body {
 }
 
 .linha {
-    background-color: none;
+    background-color:aqua;
     margin: 40px;
     flex-direction: row;
     display: flex;
@@ -426,6 +427,7 @@ body {
 }
 
 /* fim botao tanks */
+
 /* começo botão danos */
 
 .ashe {
@@ -436,7 +438,7 @@ body {
 
 .ashe:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #A02D2C;
 }
 
 .bastion {
@@ -447,7 +449,7 @@ body {
 
 .bastion:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #4EE9FA;
 }
 
 .cassidy {
@@ -458,7 +460,7 @@ body {
 
 .cassidy:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #C4423C;
 }
 
 .echo {
@@ -469,7 +471,7 @@ body {
 
 .echo:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #00ACF5;
 }
 
 .ninja {
@@ -480,7 +482,7 @@ body {
 
 .ninja:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #A9EA16;
 }
 
 .hanzo {
@@ -491,7 +493,7 @@ body {
 
 .hanzo:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #A89F9F;
 }
 
 .junkerat {
@@ -502,7 +504,7 @@ body {
 
 .junkerat:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #BA361F;
 }
 
 .mei {
@@ -513,7 +515,7 @@ body {
 
 .mei:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #4769E2;
 }
 
 .pharah {
@@ -524,7 +526,7 @@ body {
 
 .pharah:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #0086A4;
 }
 
 .reaper {
@@ -535,7 +537,7 @@ body {
 
 .reaper:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #000000;
 }
 
 .sojorn {
@@ -546,7 +548,7 @@ body {
 
 .sojorn:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #550000;
 }
 
 .soldado {
@@ -557,7 +559,7 @@ body {
 
 .soldado:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #004D94;
 }
 
 .sombra {
@@ -568,7 +570,7 @@ body {
 
 .sombra:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #8A4C89;
 }
 
 .simmetra {
@@ -579,7 +581,7 @@ body {
 
 .simmetra:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #55C6EA;
 }
 
 .tobjorn {
@@ -590,7 +592,7 @@ body {
 
 .tobjorn:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #8D4C00;
 }
 
 .tracer {
@@ -601,7 +603,7 @@ body {
 
 .tracer:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #FF8A00;
 }
 
 .window {
@@ -612,7 +614,7 @@ body {
 
 .window:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #BD00FF;
 }
 /* fim dos danos */
 /* começo dos sups */
@@ -625,7 +627,7 @@ body {
 
 .ana:hover{
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #093ABA;
 }
 
 .batiste {
@@ -636,82 +638,82 @@ body {
 
 .batiste:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #A68B00;
 }
 
-.window {
+.brigitte{
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.brigitte:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #57341A;
 }
 
-.window {
+.kiriko {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.kiriko:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #CB4965;
 }
 
-.window {
+.life {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.life:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #C2C52D;
 }
 
-.window {
+.lúcio {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.lúcio:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #039700;
 }
 
-.window {
+.mercy {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.mercy:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #EEF214;
 }
 
-.window {
+.moira {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.moira:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #9400C8;
 }
 
-.window {
+.zenyatta {
     width: 80px;
     height: 76px;
     transition: 0.2s ease;
 }
 
-.window:hover {
+.zenyatta:hover {
     border-radius: 10px;
-    background-color: #60076f;
+    background-color: #D0A303;
 }

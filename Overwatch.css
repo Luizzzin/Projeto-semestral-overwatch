@@ -270,7 +270,7 @@ background {
     position: absolute;
     width: 523px;
     height: 540px;
-    left: 837px;
+    left: 1012px;
     top: 1972px;
 }
 
@@ -329,7 +329,7 @@ background {
     position: absolute;
     width: 581.94px;
     height: 402px;
-    left: 15px;
+    left: 35px;
     top: 2560px;
 
 }
@@ -346,7 +346,7 @@ background {
     position: absolute;
     width: 649px;
     height: 210px;
-    left: 681px;
+    left: 730px;
     top: 2575px;
 }
 
@@ -360,7 +360,7 @@ background {
     position: absolute;
     width: 262px;
     height: 65px;
-    left: 825px;
+    left: 875px;
     top: 2816px;
     display: flex;
     align-items: center;
@@ -381,7 +381,7 @@ background {
     position: absolute;
     width: 262px;
     height: 65px;
-    left: 825px;
+    left: 875px;
     top: 2816px;
     display: flex;
     align-items: center;
@@ -397,7 +397,7 @@ background {
 }
 
 .mapas {
-    width: 660px;
+    width: 837px;
     height: 494px;
     left: 699px;
     top: 2961px;
@@ -414,8 +414,8 @@ background {
 }
 
 .conhecaMapas {
-    width: 586px;
-    height: 147px;
+    width: 606px;
+    height: 167px;
     position: absolute;
     top: 3090px;
     left: 73px;
@@ -432,7 +432,7 @@ background {
     width: 267px;
     height: 65px;
     left: 219px;
-    top: 3270px;
+    top: 3300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -452,7 +452,7 @@ background {
     width: 267px;
     height: 65px;
     left: 219px;
-    top: 3270px;
+    top: 3300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -488,7 +488,7 @@ background {
     width: 530px;
     height: 14px;
     z-index: 1;
-    left: 830px;
+    left: 1005px;
 }
 
 .cubana {
@@ -503,7 +503,7 @@ background {
     position: absolute;
     width: 695px;
     height: 255px;
-    left: 610px;
+    left: 690px;
     top: 4240px;
 }
 
