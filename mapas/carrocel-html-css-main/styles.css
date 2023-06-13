@@ -1,0 +1,573 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+background-color: #b5c1cd;
+}
+
+.wallmapas{
+    width: 100vw;
+    height: 65vh;
+    background-image: url(mapas\ wall.jpg);
+    background-size: 100vw 80vh;
+    top: 105px;
+    
+    position: absolute;
+    z-index: 0;
+}
+.img {
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 1px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img1 {
+    background-image: url("circuitRoyal.webp");
+    height: 100vh;
+}
+
+.img02 {
+    background-image: url('dorado.jpg');
+    height: 100vh;
+}
+
+.img03 {
+    background-image: url('Havana.webp');
+    height: 100vh;
+}
+
+.img04 {
+    background-image: url('Junkertown.webp');
+    height: 100vh;
+}
+
+.img5 {
+    background-image: url('Rialto.webp');
+    height: 100vh;
+}
+
+.img6 {
+    background-image: url('Route_66.webp');
+    height: 100vh;
+}
+
+.img7 {
+    background-image: url('monasterioShambali.webp');
+    height: 100vh;
+}
+
+.img8 {
+    background-image: url('extreitoGibraltar.jpg');
+    height: 100vh;
+}
+
+.img p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #333;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.img-slide:hover .img {
+    transform: skew(0);
+}
+
+.img:hover {
+    flex: 5;
+}
+
+.img:hover p {
+    background-color: #2c2c2c;
+    transform: rotate(0deg);
+}
+
+.img-slide {
+    position: absolute;
+    top: 1000px;
+    width: 74%;
+    height: 150px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+
+}
+
+
+.img2 {
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img11 {
+    background-image: url("peninsulaAntartica.webp");
+    height: 100vh;
+}
+
+.img21 {
+    background-image: url('Eichenwalde.webp');
+    height: 100vh;
+}
+
+.img31 {
+    background-image: url('Hollywood.webp');
+    height: 100vh;
+}
+
+.img41 {
+    background-image: url('KingsRow.webp');
+    height: 100vh;
+}
+
+.img51 {
+    background-image: url('MidTown.webp');
+    height: 100vh;
+}
+
+.img61 {
+    background-image: url('Numbani.webp');
+    height: 100vh;
+}
+
+.img71 {
+    background-image: url('Paraiso.webp');
+    height: 100vh;
+}
+
+.img2 p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #333;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.img-slide2:hover .img {
+    transform: skew(0);
+}
+
+.img2:hover {
+    flex: 5;
+}
+
+.img2:hover p {
+    background-color: #2c2c2c;
+    transform: rotate(0deg);
+}
+
+.img-slide2 {
+    position: absolute;
+    top: 1970px;
+    width: 75%;
+    height: 150px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+
+.img3 {
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img12 {
+    background-image: url("Busan.webp");
+    height: 100vh;
+}
+
+.img22 {
+    background-image: url('Lijiang.webp');
+    height: 100vh;
+}
+
+.img32 {
+    background-image: url('Nepal.webp');
+    height: 100vh;
+}
+
+.img42 {
+    background-image: url('Oasis.webp');
+    height: 100vh;
+}
+
+.img52 {
+    background-image: url('Ilios.webp');
+    height: 100vh;
+}
+
+.img3 p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #333;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.img-slide3:hover .img {
+    transform: skew(0);
+}
+
+.img3:hover {
+    flex: 5;
+}
+
+.img3:hover p {
+    background-color: #2c2c2c;
+    transform: rotate(0deg);
+}
+
+.img-slide3 {
+    position: absolute;
+    top: 2830px;
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+
+.img4 {
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img13 {
+    background-image: url("Busan.webp");
+    height: 100vh;
+}
+
+.img23 {
+    background-image: url('Lijiang.webp');
+    height: 100vh;
+}
+
+.img33 {
+    background-image: url('Nepal.webp');
+    height: 100vh;
+}
+
+.img4 p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #333;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.img-slide4:hover .img {
+    transform: skew(0);
+}
+
+.img4:hover {
+    flex: 5;
+}
+
+.img4:hover p {
+    background-color: #2c2c2c;
+    transform: rotate(0deg);
+}
+
+.img-slide4 {
+    position: absolute;
+    top: 3850px;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+
+
+.elemento {
+    width: 100vw;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+background {
+    background-color: lightblue;
+}
+
+.back {
+    width: 100vw;
+    height: 765px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 66.58px;
+    height: 66.58px;
+    left: 45px;
+    top: 19px;
+
+}
+
+.nome {
+    position: absolute;
+    width: 310.52px;
+    height: 48.69px;
+    left: 131.48px;
+    top: 27.24px;
+}
+
+.botão1 {
+    background-image: url(historia\ jogo.png);
+    background-size: 204px 29px;
+    position: absolute;
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 37px;
+
+}
+
+.botão1:hover {
+    background-image: url(imagem\ efeito.png);
+    background-size: 204px 48px;
+    position: absolute;
+    width: 204px;
+    height: 29px;
+    left: 500px;
+    top: 37px;
+}
+
+.botão2 {
+    background-image: url(herois.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 37px;
+
+}
+
+.botão2:hover {
+    background-image: url(herois\ laranja.png);
+    background-size: 171px 49px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 770px;
+    top: 37px;
+}
+
+.botão3 {
+    background-image: url(mapas.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 990px;
+    top: 37px;
+}
+
+.botão3:hover {
+    background-image: url(conheça\ os\ mapas\ laranja.png);
+    background-size: 164px 49px
+}
+
+.botão4 {
+    background-image: url(adquira\ o\ jogo.png);
+    background-size: 164px 29px;
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 1200px;
+    top: 37px;
+}
+
+.barra1{
+    top: 540px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1530px;
+    left: 5px;
+
+
+
+}
+
+.barra2{
+    top: 1500px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 115px;
+}
+
+
+.barra3{
+    top: 2470px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 5px;
+}
+
+.barra4{
+    top: 3450px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 115px;
+}
+
+.entrando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 155px;
+    top: 3460px;
+    
+}
+
+.viajando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 1150px;
+    top: 2480px;
+    
+}
+
+.aterissando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 170px;
+    top: 1505px;
+    
+}
+
+.bemvindo{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 1150px;
+    top: 545px;
+    
+}
+
+.mapa{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 70px;
+    top: 590px;
+    
+}
+
+.hibrido{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 1040px;
+    top: 1545px;
+    
+}
+
+.controle{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 15px;
+    top: 2520px;
+    
+}
+
+.robo{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 1050px;
+    top: 3495px;
+    
+}
+
+
+
+
+
+
+
+

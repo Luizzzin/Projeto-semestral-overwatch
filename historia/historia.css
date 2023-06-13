@@ -249,6 +249,138 @@ a {
 }
 
 .fora {
-    background-color: #da6025;
+    
     width: 1280px;
+}
+
+.textrato{
+    color: #fff;
+    width: 729px;
+    height: 324px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+}
+.textratodois{
+    color: #fff;
+    width: 729px;
+    height: 324px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+    padding-top: 40px;
+}
+/*  */
+/* crise  */
+/*  */
+.crise{
+    background-image: url(imagemhistoria/crise.png);
+    width: 200vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    padding-top: 80px;
+    padding-left: 150px;
+
+}
+.Omnica {
+
+    font: 400 52px 'fonti';
+    color: #da6025;
+
+
+}
+
+.tim{
+    width: 360px;
+    height: 69px;
+    background-color: rgb(255, 255, 255, 0.77);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.deus {
+    width: 729px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+.forin{
+    width: 1000px;
+    
+}
+
+.textozo{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+}
+.textozin{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+    padding-top: 40px;
+}
+/* parte 3 ja foi */
+/* parte 4 */
+
+.tracer{
+    background-image: url(imagemhistoria/governo\ over.png);
+    width: 200vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    padding-top: 80px;
+    padding-left: 150px;
+
+}
+.over {
+
+    font: 400 52px 'fonti';
+    color: #da6025;
+
+
+}
+
+.maia{
+    width: 360px;
+    height: 69px;
+    background-color: rgb(255, 255, 255, 0.77);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.maga {
+    width: 729px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+.governo{
+    width: 1000px;
+    
+}
+
+.tesis{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+}
+.tezin{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+    padding-top: 90px;
 }
