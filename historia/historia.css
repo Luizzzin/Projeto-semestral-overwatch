@@ -91,20 +91,21 @@ a {
     color: black;
 }
 
-.arrow{
+.arrow {
     width: 20px;
 }
 
-.historia{
-   width: 100vw;
-   height: 100vh;
+/* fim header */
+.historia {
+    width: 100vw;
+    height: 100vh;
     background-image: url(imagemhistoria/historiaimagem.png);
     background-size: 100vw 100vh;
     padding-top: 20%;
-   
+
 }
 
-.titulo{
+.titulo {
     font: 400 57px 'fonti', sans-serif;
     color: #fff;
     border-bottom: 10px solid #da6025;
@@ -112,5 +113,43 @@ a {
     margin-left: 30px;
     background-color: black;
     border-radius: 11px;
-    
+
+}
+
+.ouro {
+    width: 100vw;
+    height: 1239px;
+    background-image: url();
+    background-color: #da6025;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 150px ;
+}
+
+.um {
+    width: 100vw;
+    height: 69px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.title {
+    width: 351px;
+    height: 69px;
+    background-color: aqua;
+}
+
+.text {
+    width: 903px;
+    height: 971px;
+    background: rgba(0, 0, 0, 0.77);
+    border-radius: 10px ;
+}
+
+.dentro{
+    width: 903px;
+    height: 1100px;
+    background-color: #fff;
+    overflow: hidden;
 }
