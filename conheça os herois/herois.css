@@ -16,6 +16,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    z-index: 100;
 }
 
 .logo {
@@ -38,7 +40,7 @@
 .botão1 {
     font: 200 24px 'fonti', sans-serif;
     margin-left: 58px;
-    margin-right: 80px;
+    margin-right: 90px;
     color: black;
 }
 
@@ -56,7 +58,7 @@ a {
 
 .botão2 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 80px;
+    margin-right: 90px;
     color: black;
 }
 
@@ -66,7 +68,7 @@ a {
 
 .botão3 {
     font: 200 24px 'fonti', sans-serif;
-    margin-right: 80px;
+    margin-right: 90px;
     color: black;
 }
 
@@ -78,6 +80,10 @@ a {
     font: 200 24px 'fonti', sans-serif;
     color: black;
 
+}
+
+.arrow{
+    width: 20px;
 }
 
 #link {

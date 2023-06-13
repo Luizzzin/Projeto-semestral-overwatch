@@ -1,0 +1,116 @@
+/* header e reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elemento {
+    width: 100vw;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 66.58px;
+    height: 66.58px;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.nome {
+    width: 310.52px;
+    height: 48.69px;
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(/font/big_noodle_titling.ttf);
+}
+
+.botão1 {
+    font: 200 24px 'fonti', sans-serif;
+    margin-left: 58px;
+    margin-right: 90px;
+    color: black;
+}
+
+.botão1:hover {
+    color: #da6025;
+    border-bottom: 3px solid black;
+
+
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.botão2 {
+    font: 200 24px 'fonti', sans-serif;
+    margin-right: 90px;
+    color: black;
+}
+
+.botão2:hover {
+    border-bottom: 3px solid black;
+}
+
+.botão3 {
+    font: 200 24px 'fonti', sans-serif;
+    margin-right: 90px;
+    color: black;
+}
+
+.botão3:hover {
+    border-bottom: 3px solid black;
+}
+
+.botão4 {
+    font: 200 24px 'fonti', sans-serif;
+    color: black;
+
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: #da6025;
+
+    border-bottom: 3px solid black;
+}
+
+.ink {
+    color: black;
+}
+
+.arrow{
+    width: 20px;
+}
+
+.historia{
+   width: 100vw;
+   height: 100vh;
+    background-image: url(imagemhistoria/historiaimagem.png);
+    background-size: 100vw 100vh;
+    padding-top: 20%;
+   
+}
+
+.titulo{
+    font: 400 57px 'fonti', sans-serif;
+    color: #fff;
+    border-bottom: 10px solid #da6025;
+    width: 600px;
+    margin-left: 30px;
+    background-color: black;
+    border-radius: 11px;
+    
+}
