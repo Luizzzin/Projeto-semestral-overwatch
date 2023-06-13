@@ -442,3 +442,120 @@ a {
     padding: 20px;
     padding-top: 10px;
 }
+/*  */
+/* parte penultima */
+
+.junk{
+    background-image: url(imagemhistoria/junk.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: none;
+    padding-top: 80px;
+    padding-left: 150px;
+
+}
+.titu {
+
+    font: 400 52px 'fonti';
+    color: #da6025;
+
+
+}
+
+.barriga{
+    width: 78px;
+    height: 69px;
+    background-color: rgb(255, 255, 255, 0.77);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pao {
+    width: 729px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+.bomba{
+    width: 1000px;
+    
+}
+
+.tso{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 24px 'textoz';
+    padding: 20px;
+}
+.asta{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 24px 'textoz';
+    padding: 20px;
+    padding-top: 10px;
+}
+
+/*  ultima parte */
+
+
+.rama{
+    background-image: url(imagemhistoria/rama.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: none;
+    padding-top: 80px;
+    padding-left: 150px;
+
+}
+.titi {
+
+    font: 400 52px 'fonti';
+    color: #da6025;
+
+
+}
+
+.bar{
+    width: 120px;
+    height: 69px;
+    background-color: rgb(255, 255, 255, 0.77);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.paoz {
+    width: 729px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
+
+.bo{
+    width: 1000px;
+    
+}
+
+.tsoz{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+}
+.astaz{
+    color: #fff;
+    width: 729px;
+    height: 275px ;
+    border-radius: 10px;
+    font: 600 27px 'textoz';
+    padding: 20px;
+    padding-top: 50px;
+}
